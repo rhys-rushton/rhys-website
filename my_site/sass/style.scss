@@ -1,0 +1,55 @@
+body {
+    background-color: #707070; /* Darker grey background */
+}
+
+nav {
+    background-color: #505050; /* Slightly darker than body for contrast */
+    color: #FFFFFF;
+    padding: 10px 15px;
+    display: flex; /* Using flexbox */
+    flex-wrap: nowrap; /* Prevent wrapping of items */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    overflow-x: auto; /* Adds horizontal scrollbar if nav items overflow */
+}
+
+nav a {
+    color: #FFFFFF;
+    margin: 0 15px; /* Adjust spacing as needed */
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #CCCCCC;
+}
+
+p {
+    color: #E0E0E0; /* Softer light grey for paragraph text */
+    font-size: 1em; /* Standard size for text; adjust as needed */
+    line-height: 1.6; /* Good for readability */
+    font-family: "Arial", sans-serif; /* Choose a readable font */
+    margin-bottom: 1em; /* Space after paragraphs */
+}
+
+h1 {
+    color: #FFFFFF; /* White text for h1 */
+    font-size: 2em; /* Adjust size as needed */
+    font-weight: bold; /* Optional: makes the header bold */
+    text-align: center; /* Optional: centers the header text */
+    margin-top: 20px; /* Optional: adds space at the top of the header */
+    padding: 10px; /* Optional: adds padding around the text */
+    /* Other styles like text-shadow can also be added for more effect */
+}
+
+a {
+    color: #FFCC00; /* Bright yellow color for high visibility */
+    text-decoration: none; /* Removes underline */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for color and background changes */
+}
+
+
+a:hover, a:focus {
+    color: #D81B60; /* Color changes to pink-ish when hovered/focused */
+    text-decoration: underline; /* Underline on hover/focus for clarity */
+}
