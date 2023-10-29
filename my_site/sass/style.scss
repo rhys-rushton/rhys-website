@@ -32,7 +32,7 @@ p {
     margin-bottom: 1em; /* Space after paragraphs */
 }
 
-h1 {
+h1{
     color: #FFFFFF; /* White text for h1 */
     font-size: 2em; /* Adjust size as needed */
     font-weight: bold; /* Optional: makes the header bold */
@@ -53,3 +53,16 @@ a:hover, a:focus {
     color: #D81B60; /* Color changes to pink-ish when hovered/focused */
     text-decoration: underline; /* Underline on hover/focus for clarity */
 }
+
+h2 {
+    color: #D8D8D8; /* Lighter grey than paragraph but darker than h1, for contrast */
+    font-size: 1.5em; /* Smaller than h1, but larger than paragraph text */
+    font-weight: 600; /* Semi-bold - less bold than h1 */
+    text-align: left; /* Align to the left, change as needed */
+    margin-top: 15px; /* Spacing above h2 */
+    margin-bottom: 15px; /* Spacing below h2 */
+    padding: 5px; /* Optional: adds padding around the text */
+    text-shadow: 1px 1px 2px #404040; /* Optional: subtle shadow for depth */
+    font-family: "Helvetica Neue", Arial, sans-serif; /* A different font-family, or use the same as paragraphs */
+}
+

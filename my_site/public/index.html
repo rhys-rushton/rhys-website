@@ -4,18 +4,23 @@
 <head>
   <meta charset="utf-8">
   <title>MyBlog</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/sass/style.css">
 
 </head>
 
 <body>
     <nav><a href="/">Home </a>
     <a href="/about">About </a>
-    <a href="{{ get_url(path='@/blog/_index.md') }}">Blog </a>
+    <a href="https://example.com/blog/">Blog </a>
    <a href="/projects">Projects</a></nav>
   <section class="section">
     <div class="container">
-      {% block content %} {% endblock %}
+      
+<h1 class="title">
+  This is my blog made with Zola.
+</h1>
+<p>Click <a href="https://example.com/blog/">here</a> to see my posts.</p>
+
     </div>
   </section>
 </body>
